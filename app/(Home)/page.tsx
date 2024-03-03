@@ -25,6 +25,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto p-5 mt-20">
         <Skills />
         <Projects />
+        <Spotlight />
         <Footer />
       </div>
     </div >

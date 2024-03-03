@@ -5,11 +5,11 @@ import Title from './Title'
 
 export default function HeroSection() {
     return (
-        <div className='min-h-[60vh] flex flex-col-reverse gap-10 lg:gap-0 lg:flex-row items-center justify-between'>
+        <div className='min-h-[60vh] flex flex-col-reverse gap-10 lg:gap-0 lg:flex-row items-center justify-between animate-move-up'>
             <div className='space-y-10 text-center lg:text-left'>
                 <h1 className='text-4xl lg:text-7xl font-bold'>
                     Nice to mee you!
-                    <br /> <span className='underline underline-offset-8 decoration-green-500'>{"I'm C Everything."}</span> </h1>
+                    <br /> <span className='underline underline-offset-8 decoration-green-500'>{"I'm cLu from C Everything."}</span> </h1>
                 <p className='md:w-96 text-lg text-grey-300'> Based in Bucharest,here for the weekends actualy.I work remote from the country side.</p>
                 <Link className='inline-block group' href={"mailto:clu@ceverything.ro"}>
                     <Title text="Contact me" />

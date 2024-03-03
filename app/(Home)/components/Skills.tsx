@@ -2,7 +2,7 @@
 import React from 'react'
 import Title from './Title'
 import { HoverEffect } from '@/components/ui/card-hover-effect'
-import { SiNextdotjs, SiReact, SiTailwindcss, SiNodedotjs, SiJavascript, SiSupabase, SiFirebase } from 'react-icons/si'
+import { SiNextdotjs, SiReact, SiTailwindcss, SiTypescript, SiPython, SiNodedotjs, SiFlutter, SiJavascript, SiSupabase, SiFirebase } from 'react-icons/si'
 import { text } from 'stream/consumers'
 
 export default function Skills() {
@@ -27,6 +27,18 @@ export default function Skills() {
         {
             text: 'Javascript',
             Icon: SiJavascript
+        },
+        {
+            text: 'TypeScript',
+            Icon: SiTypescript
+        },
+        {
+            text: 'Python',
+            Icon: SiPython
+        },
+        {
+            text: 'Flutter',
+            Icon: SiFlutter
         },
         {
             text: 'Supabase',
