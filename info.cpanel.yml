@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/wzgjisvt/nodejss.ceverything.ro
+    - /bin/cp -r $SOURCE_DIRECTORY/* $DEPLOYPATH
